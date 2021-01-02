@@ -16,8 +16,8 @@ It includes a 7 DOF Kuka arm with a 2 DOF gripper, a table with 3 objects on it 
 The observation object returned by env.step is a dictionary:
 * obs["joint_position"] is a vector containing the current angles of the 9 joints
 * obs["touch_sensors"] is a vector containing the current touch intensity at the four touch sensors.
-* obs["retina"] is a 240*320*3 array with the current top camera image
-* obs["goal"] is a 240*240*3 array with the target top camera image
+* obs["retina"] is a 240x320x3 array with the current top camera image
+* obs["goal"] is a 240x240x3 array with the target top camera image
 
 #### Reward
 
